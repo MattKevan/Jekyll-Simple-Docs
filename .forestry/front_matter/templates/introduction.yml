@@ -1,0 +1,30 @@
+---
+label: Introduction
+hide_body: 
+is_partial: 
+fields:
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: ''
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: description
+  label: Description
+  type: text
+  hidden: false
+  default: ''
+- name: group
+  label: Group
+  type: text
+  hidden: false
+  default: ''
+- name: toc
+  label: Toc
+  type: boolean
+  hidden: false
+  default: ''
