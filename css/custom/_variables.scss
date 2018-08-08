@@ -1,0 +1,10 @@
+		
+$blue:			   #0061A1;
+$blue-bright: lighten(saturate($blue, 5%), 15%) !default;
+$blue-light:  lighten(saturate($blue, 5%), 45%) !default;
+$bd-dark:          #2a2730 !default;
+$bd-download:      #ffe484 !default;
+$bd-info:          #5bc0de !default;
+$bd-warning:       #f0ad4e !default;
+$bd-danger:        #d9534f !default;
+$bd-purple:	       $blue

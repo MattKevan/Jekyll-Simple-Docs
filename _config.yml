@@ -1,0 +1,36 @@
+# Dependencies
+markdown:       kramdown
+highlighter:    rouge
+
+kramdown:
+  auto_ids:     true
+
+# Permalinks
+permalink:      pretty
+
+baseurl:        ""
+url:            ""
+encoding:       UTF-8
+
+sass:
+  sass_dir: css
+
+plugins:
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-toc
+
+# Social
+title:              Mumsnet Wiki
+description:        "Welcome to the Wiki."
+twitter:            
+authors:            ""
+
+# Custom variables
+repo:                 "https://github.com/mumsnet"
+slack:                "https://mumsnet.slack.com"
+blog:                 ""
+
+toc:
+  min_level:        2
+  max_level:        4
