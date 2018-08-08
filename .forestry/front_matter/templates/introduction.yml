@@ -28,3 +28,5 @@ fields:
   type: boolean
   hidden: false
   default: true
+pages:
+- docs/catalogues/kit-templates.md
