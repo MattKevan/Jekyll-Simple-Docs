@@ -1,3 +1,6 @@
+
+
+
 <nav class="collapse bd-links" id="bd-docs-nav">
   {%- assign page_slug = page.url | split: '/' | last -%}
   {%- for group in site.data.nav -%}
@@ -9,6 +12,16 @@
   {%- if page.group == group_slug -%}
     {%- assign active = 'active' -%}
   {%- endif -%}
+
+
+  {% for cat in site.data.nav %}
+    {% for doc in site.docs %}
+    {% if cat.id = doc.group %}
+      {{ doc.title }}
+      {% endif %}
+    {% endfor %}
+
+  {% endfor %}
 
   <div class="bd-toc-item{% unless active == nil %} {{ active }}{% endunless %}">
       <a class="bd-toc-link" href="{{ site.baseurl }}/docs/{{ group_slug }}/{{ link_slug }}{% if link_slug %}/{% endif %}">

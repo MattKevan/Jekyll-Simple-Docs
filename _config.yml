@@ -34,3 +34,17 @@ blog:                 ""
 toc:
   min_level:        2
   max_level:        4
+
+collections:
+  docs:
+    output: true
+    permalink: /docs/:path/
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "docs"
+    values:
+      layout: "docs"
+      title: ""
