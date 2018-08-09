@@ -5,6 +5,18 @@
   </button>
 </form>
 
+{% for cat in site.data.categories%}
+
+    <h4>{{ cat.title }}</h4>
+    <ul>
+    {% for doc in site.documents %}
+     {% if doc.category == cat.id %}
+      <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
+     {% endif %}
+    {% endfor %}
+</ul>
+{% endfor %}
+
 <nav class="collapse bd-links" id="bd-docs-nav">
   {%- assign page_slug = page.url | split: '/' | last -%}
   {%- for group in site.data.nav -%}
