@@ -6,3 +6,5 @@ group :development, :test do
   gem 'jekyll-sitemap', '~> 1.2.0'
   gem 'jekyll-toc', '~> 0.6.0'
 end
+
+gem 'jekyll-admin', group: :jekyll_plugins
