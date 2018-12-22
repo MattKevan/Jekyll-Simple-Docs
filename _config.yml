@@ -18,33 +18,14 @@ sass:
 plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
-  - jekyll-toc
 
 # Social
-title:              Mumsnet Wiki
+title:              Simple Docs
 description:        "Welcome to the Wiki."
 twitter:            
 authors:            ""
 
 # Custom variables
-repo:                 "https://github.com/mumsnet"
-slack:                "https://mumsnet.slack.com"
+repo:                 "https://github.com/mattkevan"
+slack:                "https://slack.com"
 blog:                 ""
-
-toc:
-  min_level:        2
-  max_level:        4
-
-collections:
-  documents:
-    output: true
-    permalink: /documents/:path
-
-defaults:
-  -
-    scope:
-      path: ""
-      type: "documents"
-    values:
-      layout: "docs"
-      title: ""

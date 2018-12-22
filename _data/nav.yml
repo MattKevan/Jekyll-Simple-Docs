@@ -1,54 +1,9 @@
 - title: Getting started
   pages:
-    - title: Introduction
-    - title: New starters
+    - title: Where to begin
+    - title: To dos
   
-- title: Catalogues
+- title: How to use
   pages:
-    - title: KIT Blocks
-    - title: KIT Templates
-    - title: KIT Layouts
-
-- title: Data
-  pages:
-    - title: Analysis from the data team
-
-- title: Delivery
-  pages:
-    - title: Alerts
-    - title: Badge
-    - title: Breadcrumb
-    - title: Buttons
-    - title: Button group
-    - title: Card
-
-
-- title: Features & specs
-  pages:
-    - title: Registration CTAs
-
-- title: Front-end
-  pages:
-    - title: Coding standards
-    - title: Component library
-
-- title: Goals & performance
-
-- title: IT support
-  pages:
-    - title: Overview
-    - title: Brand
-    - title: License
-    - title: Translations
-
-- title: Java
-
-- title: KIT
-
-- title: Learning
-
-- title: Product design
-
-- title: Rails
-
-- title: Tech architecture and specs
+    - title: Creating pages
+    - title: Navigation
