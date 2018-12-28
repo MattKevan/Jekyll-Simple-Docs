@@ -1,24 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
-    <title>Atoms / Logo / Circle</title>
+<svg width="60px" height="30px" viewBox="0 0 60 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <path d="M18,36 C8.0588745,36 0,27.9411255 0,18 C0,8.0588745 8.0588745,0 18,0 C27.9411255,0 36,8.0588745 36,18 C36,27.9411255 27.9411255,36 18,36 Z M6.17142857,10.3689645 C6.64336378,11.2094803 6.81131496,12.2886236 6.81131496,14.7797728 L6.81131496,26.8023413 L11.2221233,26.8023413 L11.2221233,14.2409611 C12.198672,13.3654871 13.3431719,12.9277501 14.1852076,12.9277501 C15.4315422,12.9277501 15.7347663,13.4323636 15.7347663,15.5883703 L15.7347663,26.8015813 L20.0110616,26.8015813 L20.0110616,14.4096722 C20.9883703,13.5334382 22.1663084,12.9611883 23.0091042,12.9611883 C24.1870423,12.9611883 24.4233899,13.3654871 24.4233899,15.4196592 L24.4233899,26.8015813 L28.8,26.8015813 L28.8,14.5434252 C28.8,12.186789 28.4975359,11.1752821 27.5202272,10.3347663 C26.7458279,9.66144162 25.4660551,9.25714286 24.1194058,9.25714286 C22.2331849,9.25714286 20.8196592,9.89702925 19.2374223,11.5127044 C18.9015199,11.0415291 18.8004452,10.9062562 18.5640976,10.6714286 C17.6544254,9.72831811 16.4757273,9.25714286 15.0622016,9.25714286 C13.4792047,9.25714286 12.0307208,9.863591 10.8520227,11.0080909 C10.6840715,10.1333768 10.5495586,9.72831811 10.2463345,9.25714286 L6.17142857,10.3689645 Z" id="path-1"></path>
-    </defs>
-    <g id="Master-Components" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Desktop-/-CTAs-&amp;-Widgets" transform="translate(-1044.000000, -3683.000000)">
-            <g id="Atoms-/-Logo-/-Circle" transform="translate(1044.000000, 3683.000000)">
-                <mask id="mask-2" fill="white">
-                    <use xlink:href="#path-1"></use>
-                </mask>
-                <use id="Combined-Shape" fill="#0061A1" fill-rule="evenodd" xlink:href="#path-1"></use>
-                <g id="White" mask="url(#mask-2)" fill="#FFFFFF" fill-rule="evenodd">
-                    <g transform="translate(-1.000000, -1.000000)" id="Rectangle">
-                        <rect x="0" y="0" width="40" height="39"></rect>
-                    </g>
-                </g>
-            </g>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" fill="#FFFFFF">
+            <polygon id="Path" fill-opacity="0.5" points="45 15 60 30 30 30"></polygon>
+            <polygon id="Path" transform="translate(45.000000, 15.000000) scale(-1, -1) translate(-45.000000, -15.000000) " points="30 29.8642578 60 0 60 30"></polygon>
+            <polygon id="Path" fill-opacity="0.5" points="15 15 30 0 30 30"></polygon>
+            <polygon id="Path" transform="translate(15.000000, 15.067871) scale(1, -1) translate(-15.000000, -15.067871) " points="7.10542736e-15 30 7.31359417e-15 0.135742188 30 0.135742188"></polygon>
         </g>
     </g>
 </svg>

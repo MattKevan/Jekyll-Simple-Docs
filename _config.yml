@@ -21,30 +21,18 @@ plugins:
   - jekyll-toc
 
 # Social
-title:              Mumsnet Wiki
-description:        "Welcome to the Wiki."
+title:              Simple Docs
+description:        "Simple Bootstrap-based documentation site"
 twitter:            
 authors:            ""
 
 # Custom variables
-repo:                 "https://github.com/mumsnet"
-slack:                "https://mumsnet.slack.com"
-blog:                 ""
+logo:           "logo.svg"
+repo:           "https://github.com/mattkevan"
+slack:          "https://slack.com"
+blog:           ""
+website:        "https://www.kevan.tv"
 
 toc:
   min_level:        2
   max_level:        4
-
-collections:
-  documents:
-    output: true
-    permalink: /documents/:path
-
-defaults:
-  -
-    scope:
-      path: ""
-      type: "documents"
-    values:
-      layout: "docs"
-      title: ""
