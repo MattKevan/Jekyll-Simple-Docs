@@ -8,6 +8,26 @@
 
 
 <nav class="collapse bd-links" id="bd-docs-nav">
+
+{% assign url_parts = page.url | split: '/' %}
+{% assign url_parts_size = url_parts | size %}
+
+{% assign rm = url_parts | last %}
+{% assign base_url = page.url | replace: rm | remove: 'documents' |remove: '/' %}
+
+<ul>
+  {% assign weighted_pages = site.pages | sort: 'weight' %}
+  {% for doc in weighted_pages %}
+    {% if doc.chapter == true %}
+     <li><a href="{{ doc.url }}"> {{ doc.title }}</a></li>
+
+      
+  {% endif %}
+  {% endfor %}
+  </ul>
+
+
+
   {%- assign page_slug = page.url | split: '/' | last -%}
   {%- for group in site.data.nav -%}
   {%- assign link = group.pages | first -%}
@@ -30,7 +50,7 @@
   {% endfor %}
 
   <div class="bd-toc-item{% unless active == nil %} {{ active }}{% endunless %}">
-      <a class="bd-toc-link" href="{{ site.baseurl }}/docs/{{ group_slug }}/{{ link_slug }}{% if link_slug %}/{% endif %}">
+      <a class="bd-toc-link" href="{{ site.baseurl }}/documents/{{ group_slug }}/{{ link_slug }}{% if link_slug %}/{% endif %}">
         {{ group.title }}
       </a>
 
@@ -44,7 +64,7 @@
           {%- endif -%}
 
           <li{% unless active == nil %} class="{{ active }}"{% endunless %}>
-            <a href="{{ site.baseurl }}/docs/{{ group_slug }}/{{ doc_slug }}/">
+            <a href="{{ site.baseurl }}/documents/{{ group_slug }}/{{ doc_slug }}/">
               {{ doc.title }}
             </a>
 

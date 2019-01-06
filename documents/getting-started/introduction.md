@@ -1,7 +1,8 @@
 ---
 layout: docs
-title: Where to begin
+title: Introduction
 description: A quick guide for new starters
 category: getting-started
-toc: true
+chapter: true
+weight: 2
 ---
