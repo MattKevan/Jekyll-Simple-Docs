@@ -20,8 +20,8 @@ plugins:
   - jekyll-sitemap
 
 # Social
-title:              Simple Docs
-description:        "Simple Bootstrap-based documentation site"
+title:              Simple docs
+description:        "Am easy-to-use Bootstrap-based documentation site."
 twitter:            
 authors:            ""
 
