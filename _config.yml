@@ -8,7 +8,7 @@ kramdown:
 # Permalinks
 permalink:      pretty
 
-baseurl:        ""
+baseurl:        "https://mattkevan.github.io/Jekyll-Simple-Docs/"
 url:            ""
 encoding:       UTF-8
 
@@ -18,7 +18,6 @@ sass:
 plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
-  - jekyll-toc
 
 # Social
 title:              Simple Docs
@@ -36,3 +35,4 @@ website:        "https://www.kevan.tv"
 toc:
   min_level:        2
   max_level:        4
+
