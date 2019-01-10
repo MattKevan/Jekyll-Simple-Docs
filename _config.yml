@@ -1,3 +1,6 @@
+title:              Simple docs
+description:        "An easy-to-use Bootstrap-based documentation site."
+
 # Dependencies
 markdown:       kramdown
 highlighter:    rouge
@@ -20,17 +23,15 @@ plugins:
   - jekyll-sitemap
 
 # Social
-title:              Simple docs
-description:        "Am easy-to-use Bootstrap-based documentation site."
 twitter:            
 authors:            ""
-
-# Custom variables
-logo:           "logo.svg"
 repo:           "https://github.com/MattKevan/Jekyll-simple-docs"
 slack:          "https://slack.com"
 blog:           ""
 website:        "https://www.kevan.tv"
+
+# Custom variables
+logo:           "logo.svg"
 
 toc:
   min_level:        2
