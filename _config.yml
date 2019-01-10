@@ -8,7 +8,7 @@ kramdown:
 # Permalinks
 permalink:      pretty
 
-baseurl:        "https://mattkevan.github.io/Jekyll-Simple-Docs/"
+baseurl:        "https://mattkevan.github.io/Jekyll-Simple-Docs"
 url:            ""
 encoding:       UTF-8
 
@@ -27,7 +27,7 @@ authors:            ""
 
 # Custom variables
 logo:           "logo.svg"
-repo:           "https://github.com/mattkevan"
+repo:           "https://github.com/MattKevan/Jekyll-Simple-Docs"
 slack:          "https://slack.com"
 blog:           ""
 website:        "https://www.kevan.tv"
