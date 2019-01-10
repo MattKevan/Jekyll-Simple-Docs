@@ -27,7 +27,7 @@ authors:            ""
 
 # Custom variables
 logo:           "logo.svg"
-repo:           "https://github.com/MattKevan/Jekyll-Simple-Docs"
+repo:           "https://github.com/MattKevan/Jekyll-simple-docs"
 slack:          "https://slack.com"
 blog:           ""
 website:        "https://www.kevan.tv"
